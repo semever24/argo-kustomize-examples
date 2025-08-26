@@ -1,7 +1,7 @@
 
-replicas: 10
+replicas: 5
 
 configmap:
-  version: v5
+  version: v6
   data:
     CUSTOM_HEADER: 'This is on the DEV environment from Helm chart!'
