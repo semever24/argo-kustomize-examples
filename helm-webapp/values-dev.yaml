@@ -1,7 +1,7 @@
 
-replicas: 2
+replicas: 5
 
 configmap:
-  version: v3
+  version: v4
   data:
     CUSTOM_HEADER: 'This is on the DEV environment!'
